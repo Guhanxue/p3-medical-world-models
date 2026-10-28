@@ -1,0 +1,17 @@
+{
+  "schema_version": "med-jepa-roi-v4p3p1-training-config-v1",
+  "seed": 2026,
+  "hidden_channels": 128,
+  "conditioned_blocks": 4,
+  "maximum_cv_epochs": 100,
+  "batch_size": 4,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "mask_fractions": [0.5, 0.625, 0.75, 0.875, 1.0],
+  "grouped_cv_folds": 5,
+  "early_stopping_patience": 15,
+  "early_stopping_min_delta": 0.00001,
+  "evaluation_mask_draws_per_fraction": 2,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260816
+}

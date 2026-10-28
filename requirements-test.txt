@@ -1,0 +1,8 @@
+# Environment used for the public release's CPU checks (Python 3.12).
+# This records software verification, not the original GPU training environment.
+torch==2.10.0
+numpy==2.5.4
+scipy==1.18.1
+pytest==9.2.0
+pydicom==3.0.2
+SimpleITK==2.5.6

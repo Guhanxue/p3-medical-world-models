@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "p3-medical-world-models"
+version = "0.1.0"
+description = "Patient, Place, Prior (P³) and Cancer JEPA for longitudinal medical forecasting"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Xingrui Gu"},
+  {name = "Hanxue Gu"},
+  {name = "Yuxiang Zhang"},
+  {name = "Yang Yang"},
+]
+dependencies = ["torch>=2.6", "numpy>=1.26", "scipy>=1.11"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+imaging = ["pydicom>=3", "SimpleITK>=2.3,<3"]
+
+[project.urls]
+Repository = "https://github.com/Guhanxue/p3-medical-world-models"
+Paper = "https://arxiv.org/abs/2610.09194"
+
+[project.scripts]
+p3-factorial-audit = "med_jepa.roi_v4p3p2.audit_factorial:main"
+p3-prior-audit = "med_jepa.roi_v4p3p2.audit_matched_prior:main"
+cancer-jepa-finalize = "med_jepa.roi_v4p3p2.finalize:main"
+cancer-jepa-validate = "med_jepa.roi_v4p3p2.validate:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

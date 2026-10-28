@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Please cite the P³ paper if this work informs your research."
+title: "Patient, Place, Prior (P³): What Counts as Personalization in Medical World Models?"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Gu
+    given-names: Xingrui
+    affiliation: University of California, Berkeley
+  - family-names: Gu
+    given-names: Hanxue
+    affiliation: University of California, San Francisco
+  - family-names: Zhang
+    given-names: Yuxiang
+    affiliation: Southern Methodist University
+  - family-names: Yang
+    given-names: Yang
+    affiliation: University of California, San Francisco
+repository-code: "https://github.com/Guhanxue/p3-medical-world-models"
+url: "https://arxiv.org/abs/2610.09194"
+preferred-citation:
+  type: article
+  title: "Patient, Place, Prior (P³): What Counts as Personalization in Medical World Models?"
+  authors:
+    - family-names: Gu
+      given-names: Xingrui
+    - family-names: Gu
+      given-names: Hanxue
+    - family-names: Zhang
+      given-names: Yuxiang
+    - family-names: Yang
+      given-names: Yang
+  year: 2026
+  journal: arXiv
+  doi: "10.48550/arXiv.2610.09194"

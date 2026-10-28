@@ -1,0 +1,618 @@
+{
+  "source_snapshot": "cc23ad1bbeaa1f8175220a98062c3c6e3f8c3f1c",
+  "scope": "P3/Cancer JEPA source, transitive dependencies, configs, and tests",
+  "upstream_files": [
+    {
+      "path": "configs/ispy2_roi_v4p3p1_seed2026.dev.json",
+      "source_sha256": "913c059f36db6249a838bb75321482ccbab6b187121a0aa4b30ada252bb979c3",
+      "release_sha256": "913c059f36db6249a838bb75321482ccbab6b187121a0aa4b30ada252bb979c3",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "configs/ispy2_roi_v4p3p2_seed2026.recovery.json",
+      "source_sha256": "90d317bfdf480d541d0bf7b96a3d147f1c8abb2fa3d28799e4d244de7cfc5b04",
+      "release_sha256": "90d317bfdf480d541d0bf7b96a3d147f1c8abb2fa3d28799e4d244de7cfc5b04",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "configs/ispy2_ser_roi_112_2p1mm_v1.json",
+      "source_sha256": "abb05040cf2a8c30b608440b5b782dde2d755191d7cafc6e79ca0f62b79f41b5",
+      "release_sha256": "abb05040cf2a8c30b608440b5b782dde2d755191d7cafc6e79ca0f62b79f41b5",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/__init__.py",
+      "source_sha256": "59040fb2574f725c3777d8a438f10435021b4c8fbd717a64ea6f2327ec14d33b",
+      "release_sha256": "0650f28c7e6841965a8acf6dbd8bf775bdb0ef81b31e1848ca35d6e80e48f625",
+      "modified_for_public_packaging": true
+    },
+    {
+      "path": "src/med_jepa/cache_3dino.py",
+      "source_sha256": "068d7fb3baba4ad0da5b23947a9c7c4099ad273c3a1f4a90a8f578ca2c0c6675",
+      "release_sha256": "068d7fb3baba4ad0da5b23947a9c7c4099ad273c3a1f4a90a8f578ca2c0c6675",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/data/__init__.py",
+      "source_sha256": "0370a4b47b624537cfafdde61c31218f2ead62c854aad616e663e87114d8d559",
+      "release_sha256": "16ecf84d376bcf11d3b6d06bd21542eca5b7b976abbd85aa2b53909f9526cb70",
+      "modified_for_public_packaging": true
+    },
+    {
+      "path": "src/med_jepa/data/contracts.py",
+      "source_sha256": "7e6005a3dc3f50061285c6eb61ad17a081fcfd7f53204760284aa4a354c9f0a9",
+      "release_sha256": "7e6005a3dc3f50061285c6eb61ad17a081fcfd7f53204760284aa4a354c9f0a9",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/data/manifest.py",
+      "source_sha256": "e4ef8c3fdab65ed050ece1eef9dd05c9dfcb540eb9bc575923ce95378f0993d1",
+      "release_sha256": "e4ef8c3fdab65ed050ece1eef9dd05c9dfcb540eb9bc575923ce95378f0993d1",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/frozen_audit/__init__.py",
+      "source_sha256": "b51ee1d83ac77b93464924cc71fb72ea7f9a3e61cb7d6b82231543818abe82d8",
+      "release_sha256": "b51ee1d83ac77b93464924cc71fb72ea7f9a3e61cb7d6b82231543818abe82d8",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/frozen_audit/features.py",
+      "source_sha256": "0531c0873e917ff653e8a56255c2fb51880819dc13acafda97198b7dac34d9c0",
+      "release_sha256": "0531c0873e917ff653e8a56255c2fb51880819dc13acafda97198b7dac34d9c0",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/frozen_audit/run.py",
+      "source_sha256": "8acbd1279fac0f3468ec9763da5b72e6d1b4c901e1d1f6ff2e4004f0eeeda1da",
+      "release_sha256": "8acbd1279fac0f3468ec9763da5b72e6d1b4c901e1d1f6ff2e4004f0eeeda1da",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/frozen_audit/statistics.py",
+      "source_sha256": "715483a4f6b037b90a272eabdc83f5c1694535ea51ac83a17aab88ae4a30ee95",
+      "release_sha256": "715483a4f6b037b90a272eabdc83f5c1694535ea51ac83a17aab88ae4a30ee95",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/frozen_audit/t2_census.py",
+      "source_sha256": "53a19e27c205c68ea8d6b5bdac1be8feed658b08daf2ecc84575144795301b7a",
+      "release_sha256": "53a19e27c205c68ea8d6b5bdac1be8feed658b08daf2ecc84575144795301b7a",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/ftv_release.py",
+      "source_sha256": "9b5fad2f6556064864bb2f58bb2b833f5c348702b6737d00ec89a7ad181bac81",
+      "release_sha256": "9b5fad2f6556064864bb2f58bb2b833f5c348702b6737d00ec89a7ad181bac81",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/ispy2_dce_geometry_probe.py",
+      "source_sha256": "ecd45f0f59105e480d5794ab3a99d5c2017b5810ff92244192567a02c0f30577",
+      "release_sha256": "ecd45f0f59105e480d5794ab3a99d5c2017b5810ff92244192567a02c0f30577",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/ispy2_ftv_audit.py",
+      "source_sha256": "7ef1bf9bee02fe26a4a3edb6ec51a09c09ee66cbd35847ea6f8c4c6e8a09de5a",
+      "release_sha256": "7ef1bf9bee02fe26a4a3edb6ec51a09c09ee66cbd35847ea6f8c4c6e8a09de5a",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/ispy2_manifest_builder.py",
+      "source_sha256": "f663c22bf67cfecc28106a868737d4763cb77d8fed3afb89e895e35e3c9a5623",
+      "release_sha256": "ef7ed5e5ac2f35ff0ae48e82be08f0f3fc0ec23cab2ab785e222b668b2608c53",
+      "modified_for_public_packaging": true
+    },
+    {
+      "path": "src/med_jepa/ispy2_pixel_probe.py",
+      "source_sha256": "d733c7184879c9971f2afe51b7b17119f81028a1a47eaccaccba24a18edff882",
+      "release_sha256": "d733c7184879c9971f2afe51b7b17119f81028a1a47eaccaccba24a18edff882",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/ispy2_preflight.py",
+      "source_sha256": "889e143dbbb9c02602e9961718bab2d4b6de488bd29e90bfec8d81cfced67da9",
+      "release_sha256": "7973f4a1736a26c7cb55da971ee7449b8d3dc56abddec04deb7da4a868b94481",
+      "modified_for_public_packaging": true
+    },
+    {
+      "path": "src/med_jepa/ispy2_roi_anchor_audit.py",
+      "source_sha256": "b88799c3bffd5d380f0b4081079e04470baf7f7d99fb25fb2d6e0cf4dbb25387",
+      "release_sha256": "b88799c3bffd5d380f0b4081079e04470baf7f7d99fb25fb2d6e0cf4dbb25387",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/ispy2_seg_mapping_probe.py",
+      "source_sha256": "adb4344942a0a87e6705e1c76c273905eb047e7f26025b5d20316f46309e2de5",
+      "release_sha256": "adb4344942a0a87e6705e1c76c273905eb047e7f26025b5d20316f46309e2de5",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/ispy2_ser_roi_converter.py",
+      "source_sha256": "8b66cddf24d027e7fb8a8524b7c884bdff54d3a109aa86ea18f72d32c731e6dd",
+      "release_sha256": "8b66cddf24d027e7fb8a8524b7c884bdff54d3a109aa86ea18f72d32c731e6dd",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/ispy2_series_probe.py",
+      "source_sha256": "c8628b2d5967dd9d17e920f5287ea9895b70a554be7c93ffb7589778b44015f4",
+      "release_sha256": "c8628b2d5967dd9d17e920f5287ea9895b70a554be7c93ffb7589778b44015f4",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/merge_feature_index.py",
+      "source_sha256": "4356835dadb93681258ad71e5ad3f0ca5bb3a3fe4dcd6f54a36d10ce87e8d391",
+      "release_sha256": "4356835dadb93681258ad71e5ad3f0ca5bb3a3fe4dcd6f54a36d10ce87e8d391",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v3/__init__.py",
+      "source_sha256": "f6b88f8c7a0cbea2a6e1b28f68d9a63310c776ceb639127a93a4e470ca70f392",
+      "release_sha256": "f6b88f8c7a0cbea2a6e1b28f68d9a63310c776ceb639127a93a4e470ca70f392",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v3/context_weights.py",
+      "source_sha256": "9fe2b0d72a32fb1b95d89935ff2a34daf716e6b46c199d89141d7f440cd23188",
+      "release_sha256": "9fe2b0d72a32fb1b95d89935ff2a34daf716e6b46c199d89141d7f440cd23188",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v3/data.py",
+      "source_sha256": "a12b95c760d8a74e3b4ff4c5bad71788371cf9dd8335c484b97e3bbd1da2a548",
+      "release_sha256": "a12b95c760d8a74e3b4ff4c5bad71788371cf9dd8335c484b97e3bbd1da2a548",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4/__init__.py",
+      "source_sha256": "603652e629c39803d11e6d5731dc53016501b2cdbc66431bc04cdb6d76778140",
+      "release_sha256": "603652e629c39803d11e6d5731dc53016501b2cdbc66431bc04cdb6d76778140",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4/audit_masked_cover.py",
+      "source_sha256": "65399ad0ccbf1545d41dab2e6d34c3152cf1eaf987b7e98590cc5cadbbb8f73d",
+      "release_sha256": "65399ad0ccbf1545d41dab2e6d34c3152cf1eaf987b7e98590cc5cadbbb8f73d",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4/audit_mechanistic.py",
+      "source_sha256": "551d784245b7809ef27b9ed42e11835a528c2d009b219303918960947535f9f1",
+      "release_sha256": "551d784245b7809ef27b9ed42e11835a528c2d009b219303918960947535f9f1",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4/config.py",
+      "source_sha256": "55e2d10086db555fdb6fc7b7f7b25dc4069416d97bac515f1a8c627d4661321c",
+      "release_sha256": "55e2d10086db555fdb6fc7b7f7b25dc4069416d97bac515f1a8c627d4661321c",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4/contracts.py",
+      "source_sha256": "d80b46dd7525ad9d3769e472d57093f548b62b1d9e50caba3994ec70aed5aa9a",
+      "release_sha256": "d80b46dd7525ad9d3769e472d57093f548b62b1d9e50caba3994ec70aed5aa9a",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4/data.py",
+      "source_sha256": "7d2ea27ea7ae77eae07a534c2269ec87cfa4d8373e7be768962e45b3b4654ba0",
+      "release_sha256": "7d2ea27ea7ae77eae07a534c2269ec87cfa4d8373e7be768962e45b3b4654ba0",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4/gate.py",
+      "source_sha256": "a13f446ee0125cb0a2cd31f0c2fd66a1c0afc770c24a319a64590054623ec412",
+      "release_sha256": "a13f446ee0125cb0a2cd31f0c2fd66a1c0afc770c24a319a64590054623ec412",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4/losses.py",
+      "source_sha256": "e9b6188891968c5e070692200e98af9a090849b9bd72a6d7e528e09beb052757",
+      "release_sha256": "e9b6188891968c5e070692200e98af9a090849b9bd72a6d7e528e09beb052757",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4/masking.py",
+      "source_sha256": "6a39df392b32a90612254865369e5ad6fddae4191894054ffaf7e19ffea17ced",
+      "release_sha256": "6a39df392b32a90612254865369e5ad6fddae4191894054ffaf7e19ffea17ced",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4/model.py",
+      "source_sha256": "0c7fc9b87ea99eb6ac3314e8ee355881f2959fe25ce4098e06a64266fc8a8e3b",
+      "release_sha256": "0c7fc9b87ea99eb6ac3314e8ee355881f2959fe25ce4098e06a64266fc8a8e3b",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4/train.py",
+      "source_sha256": "3e43a7aa0945766921876359dbe4c108896d2acc79eb6193080839d2d94d1fc1",
+      "release_sha256": "3e43a7aa0945766921876359dbe4c108896d2acc79eb6193080839d2d94d1fc1",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p1/__init__.py",
+      "source_sha256": "d00e26f4b250339ea49141f893f85437943df5c1cf774c45d71a74584dc1630a",
+      "release_sha256": "d00e26f4b250339ea49141f893f85437943df5c1cf774c45d71a74584dc1630a",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p1/config.py",
+      "source_sha256": "01821de54e7966a6e27aaccc9e6f245d503a7c39cc9cea9be4860cfd6f318ab5",
+      "release_sha256": "01821de54e7966a6e27aaccc9e6f245d503a7c39cc9cea9be4860cfd6f318ab5",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p1/freeze_design.py",
+      "source_sha256": "7b512200d31841c88ffa36c7647d915be9d0c17d670f96fbb89c6aff9dded290",
+      "release_sha256": "7b512200d31841c88ffa36c7647d915be9d0c17d670f96fbb89c6aff9dded290",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p1/full_token_linear.py",
+      "source_sha256": "b01e77273c5bf978b83df558fdd402f5eb9472d70ba3c47e247ab3157643a4dc",
+      "release_sha256": "b01e77273c5bf978b83df558fdd402f5eb9472d70ba3c47e247ab3157643a4dc",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p1/masking.py",
+      "source_sha256": "c30c5817811b559f3010e51b61d0bb9281d27c30e398022bc73df2a6d6702588",
+      "release_sha256": "c30c5817811b559f3010e51b61d0bb9281d27c30e398022bc73df2a6d6702588",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p1/model.py",
+      "source_sha256": "3cc857245afde6a29dee7b02b4861239336a009a8c5b38f723f025b0e891feab",
+      "release_sha256": "3cc857245afde6a29dee7b02b4861239336a009a8c5b38f723f025b0e891feab",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p1/region_audit.py",
+      "source_sha256": "90c76774eff6d85b56f820e2ca7074ff06fb09896758891f893463d210360275",
+      "release_sha256": "90c76774eff6d85b56f820e2ca7074ff06fb09896758891f893463d210360275",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p1/train.py",
+      "source_sha256": "6dad5aba99e00e748af6b2ca309f5082423bd07d14c9f1c52198e8067cb7be4f",
+      "release_sha256": "6dad5aba99e00e748af6b2ca309f5082423bd07d14c9f1c52198e8067cb7be4f",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/__init__.py",
+      "source_sha256": "e4c58b139d8cc977b3e53015c1a889f58fa9412b3930f152bd25efb4cab3b749",
+      "release_sha256": "e4c58b139d8cc977b3e53015c1a889f58fa9412b3930f152bd25efb4cab3b749",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/artifact_audit.py",
+      "source_sha256": "ebeb4cd82bf902504626146e35fc7b854eb95017b6ded83084530343a43f7b60",
+      "release_sha256": "ebeb4cd82bf902504626146e35fc7b854eb95017b6ded83084530343a43f7b60",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/artifact_lock.py",
+      "source_sha256": "62265fda9edfd57154d0ce232a31741105b3321a09fbedc5ddf32b863daaddf3",
+      "release_sha256": "62265fda9edfd57154d0ce232a31741105b3321a09fbedc5ddf32b863daaddf3",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/config.py",
+      "source_sha256": "5f8aafd5ca23e352c2fbb9ac089d756cc8e37926ce9bfefe0feef8303ad6ea44",
+      "release_sha256": "5f8aafd5ca23e352c2fbb9ac089d756cc8e37926ce9bfefe0feef8303ad6ea44",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/data.py",
+      "source_sha256": "f96e45583a3b9aa8cfe630e92590b99648d5dfbf33a35d73c4ba35170497845b",
+      "release_sha256": "f96e45583a3b9aa8cfe630e92590b99648d5dfbf33a35d73c4ba35170497845b",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/feature_triage.py",
+      "source_sha256": "53369de369b399b88b2c7e1dce0b74da919864fdae0ef948f809a3d52fcc6f01",
+      "release_sha256": "53369de369b399b88b2c7e1dce0b74da919864fdae0ef948f809a3d52fcc6f01",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/freeze_design.py",
+      "source_sha256": "d8920f957975a3076f6fd7211f4a06f1d75d7415b7a23f5b844742705d58a804",
+      "release_sha256": "d8920f957975a3076f6fd7211f4a06f1d75d7415b7a23f5b844742705d58a804",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/gate.py",
+      "source_sha256": "f03029bee14cc23ca45a8885d745f431fbe9ce1151a2af5c3f169ded2eb9faf2",
+      "release_sha256": "f03029bee14cc23ca45a8885d745f431fbe9ce1151a2af5c3f169ded2eb9faf2",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/locality_v2.py",
+      "source_sha256": "be3d2b3b259ced779352d82a550d52fbe9707e51fef98ee78a8a115edaf2ef35",
+      "release_sha256": "be3d2b3b259ced779352d82a550d52fbe9707e51fef98ee78a8a115edaf2ef35",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/lock.py",
+      "source_sha256": "947c199916b66136bb4efeaee3badc2a66f5b03787e79b92e9da613bd058c527",
+      "release_sha256": "947c199916b66136bb4efeaee3badc2a66f5b03787e79b92e9da613bd058c527",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/losses.py",
+      "source_sha256": "5a6e801510d71f8858cebcf3d8a1ae4c5613637657d31ef40475071ef22e9339",
+      "release_sha256": "5a6e801510d71f8858cebcf3d8a1ae4c5613637657d31ef40475071ef22e9339",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/masking.py",
+      "source_sha256": "3cdb7fbf15dc504bfebcbc60996914c54c278988f08111332e4ff9727c0a705b",
+      "release_sha256": "3cdb7fbf15dc504bfebcbc60996914c54c278988f08111332e4ff9727c0a705b",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/model.py",
+      "source_sha256": "025fc4be5a97957c68e8041b3bcdcb345b0138845d0f5d490f6ef98e92c890d9",
+      "release_sha256": "025fc4be5a97957c68e8041b3bcdcb345b0138845d0f5d490f6ef98e92c890d9",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/preprocessing.py",
+      "source_sha256": "624d98e507095fce1a2e172e57c53519df79022487027bf594e12bc9541e10d5",
+      "release_sha256": "624d98e507095fce1a2e172e57c53519df79022487027bf594e12bc9541e10d5",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/recovery.py",
+      "source_sha256": "6035123e52acd43a2a154063ab7ebe834dde9ec2c410c2e2d96db209173e1613",
+      "release_sha256": "6035123e52acd43a2a154063ab7ebe834dde9ec2c410c2e2d96db209173e1613",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/recovery_lock.py",
+      "source_sha256": "5366c296da5a156aee8d58faf342c7133c1817dc88606b22a9b7e2690eacc456",
+      "release_sha256": "5366c296da5a156aee8d58faf342c7133c1817dc88606b22a9b7e2690eacc456",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/token_artifact.py",
+      "source_sha256": "55cc714ccda43897632ccdf49823b4cfa48ad41de477474401d913e6ae2a0ed3",
+      "release_sha256": "55cc714ccda43897632ccdf49823b4cfa48ad41de477474401d913e6ae2a0ed3",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p2/train.py",
+      "source_sha256": "766c4b95c12888f83db20c3d8e920fe734135da7268e892f37b5fe48d9b4031a",
+      "release_sha256": "766c4b95c12888f83db20c3d8e920fe734135da7268e892f37b5fe48d9b4031a",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3/__init__.py",
+      "source_sha256": "b653ed840e1fb4f99fd15cc291eefedc392a1bc98f13814664d069830d9594e7",
+      "release_sha256": "b653ed840e1fb4f99fd15cc291eefedc392a1bc98f13814664d069830d9594e7",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3/baselines.py",
+      "source_sha256": "420fc54654edd8300b6b850ed7ae217234021216d66f9ed78e8c328bc6b5efda",
+      "release_sha256": "420fc54654edd8300b6b850ed7ae217234021216d66f9ed78e8c328bc6b5efda",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3/config.py",
+      "source_sha256": "5fde6b8013c3a134c7b93c50afadc18870cb8c1192fa534d55dd2646fb66f3f7",
+      "release_sha256": "5fde6b8013c3a134c7b93c50afadc18870cb8c1192fa534d55dd2646fb66f3f7",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3/data.py",
+      "source_sha256": "2e604d5ecac75799fb4ef190cb939afc32af52838e96fa6e8de7f67e87e0a781",
+      "release_sha256": "2e604d5ecac75799fb4ef190cb939afc32af52838e96fa6e8de7f67e87e0a781",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3/freeze_design.py",
+      "source_sha256": "453204eea996c9a31b76ec26461ab8204309cb87d1ebbc6c2ad7930a6169a8be",
+      "release_sha256": "453204eea996c9a31b76ec26461ab8204309cb87d1ebbc6c2ad7930a6169a8be",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3/gate.py",
+      "source_sha256": "ccdfe922f3cac90644fb0b3f64c9793d49a0cc32b2974e4f4f54ececb0d037e6",
+      "release_sha256": "ccdfe922f3cac90644fb0b3f64c9793d49a0cc32b2974e4f4f54ececb0d037e6",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3/losses.py",
+      "source_sha256": "173f319621cf7b40d327878c9663d8ff2e34d954d38bc428e34d5836a665e86e",
+      "release_sha256": "173f319621cf7b40d327878c9663d8ff2e34d954d38bc428e34d5836a665e86e",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3/model.py",
+      "source_sha256": "8c1f81eb2d8aa1f1480dd911b8fdbbe39830b7edbdad3ed3ea039b0b8e6ab148",
+      "release_sha256": "8c1f81eb2d8aa1f1480dd911b8fdbbe39830b7edbdad3ed3ea039b0b8e6ab148",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3/train.py",
+      "source_sha256": "c4dc90e30a873217494573f3cdd702f2f0cf78f0ff8817a97676649a18701e62",
+      "release_sha256": "c4dc90e30a873217494573f3cdd702f2f0cf78f0ff8817a97676649a18701e62",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p1/__init__.py",
+      "source_sha256": "a62600b5a889bf820ad5492193068acd853b278be816f6d8e4f51d634aed72ed",
+      "release_sha256": "a62600b5a889bf820ad5492193068acd853b278be816f6d8e4f51d634aed72ed",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p1/anchor.py",
+      "source_sha256": "028e4887974658d874eb8508e155df97d9a66a91ed1f993c1a19f1540abb5d40",
+      "release_sha256": "028e4887974658d874eb8508e155df97d9a66a91ed1f993c1a19f1540abb5d40",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p1/config.py",
+      "source_sha256": "3421f6a909b6d629b84b5f58d24caf27e134494df51ae42cad25e22e9feed7de",
+      "release_sha256": "3421f6a909b6d629b84b5f58d24caf27e134494df51ae42cad25e22e9feed7de",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p1/freeze_design.py",
+      "source_sha256": "1129bda763852bcb4651851b8dc84c32daf7c23c65e580447b4c6f85db445b9b",
+      "release_sha256": "1129bda763852bcb4651851b8dc84c32daf7c23c65e580447b4c6f85db445b9b",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p1/gate.py",
+      "source_sha256": "d3070e4b067393be485c9195e15c411f65d57572737bca1f605d989ebc21b43a",
+      "release_sha256": "d3070e4b067393be485c9195e15c411f65d57572737bca1f605d989ebc21b43a",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p1/losses.py",
+      "source_sha256": "94d85417e0c6a8adb7c54f5f0e72104f35afe7b30c30d904a70a93d35de1ad7b",
+      "release_sha256": "94d85417e0c6a8adb7c54f5f0e72104f35afe7b30c30d904a70a93d35de1ad7b",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p1/model.py",
+      "source_sha256": "278a426c2d27ca1b158676d516c59022dc9198770adf669c2c8ed7d6553e9fbb",
+      "release_sha256": "278a426c2d27ca1b158676d516c59022dc9198770adf669c2c8ed7d6553e9fbb",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p1/train.py",
+      "source_sha256": "55f0bcba361d0d75b674c0f80b2d1792ba8b21374e2a1a47173d35b4bbe47b7a",
+      "release_sha256": "55f0bcba361d0d75b674c0f80b2d1792ba8b21374e2a1a47173d35b4bbe47b7a",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p2/__init__.py",
+      "source_sha256": "5d0fdbeece00c0a85635e382dbe8bf1f32f9d0cf832c88e2e5885320ef48a256",
+      "release_sha256": "5d0fdbeece00c0a85635e382dbe8bf1f32f9d0cf832c88e2e5885320ef48a256",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p2/audit_factorial.py",
+      "source_sha256": "8fd11294bc2c41996187f9f85b0406c9eb3960ae54f6e979e7c257d7462883e1",
+      "release_sha256": "8fd11294bc2c41996187f9f85b0406c9eb3960ae54f6e979e7c257d7462883e1",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p2/audit_matched_prior.py",
+      "source_sha256": "f48a79b8fda769047278ad9a6ad90edaeaa4ae302aa1d4f8e64e9c37110fe196",
+      "release_sha256": "f48a79b8fda769047278ad9a6ad90edaeaa4ae302aa1d4f8e64e9c37110fe196",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p2/config.py",
+      "source_sha256": "ed058ef5989035978db45924ebff76374db844fc32658a4ae572d3e4b7d81f58",
+      "release_sha256": "ed058ef5989035978db45924ebff76374db844fc32658a4ae572d3e4b7d81f58",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p2/data.py",
+      "source_sha256": "f87ea55b639d93dfcc4c5ee099f5337f35c03ab81ca8f30f82963e6759dcb630",
+      "release_sha256": "f87ea55b639d93dfcc4c5ee099f5337f35c03ab81ca8f30f82963e6759dcb630",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p2/finalize.py",
+      "source_sha256": "3a4397ce264fbffb7fcf51f7f07935f8affcffb9df11ca6942ad8a679f7c5a03",
+      "release_sha256": "3a4397ce264fbffb7fcf51f7f07935f8affcffb9df11ca6942ad8a679f7c5a03",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p2/freeze_recovery.py",
+      "source_sha256": "8772fd34aba882cde1de6d836fbd99a4cc78a7363276fa86c4354e6d2626e5b8",
+      "release_sha256": "8772fd34aba882cde1de6d836fbd99a4cc78a7363276fa86c4354e6d2626e5b8",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p2/gate.py",
+      "source_sha256": "20a60e311f55345199f40da0d8dc0809bfd05cfd073813b788c305820622755d",
+      "release_sha256": "20a60e311f55345199f40da0d8dc0809bfd05cfd073813b788c305820622755d",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "src/med_jepa/roi_v4p3p2/validate.py",
+      "source_sha256": "4392b02cfcf6ef68fcb28df928d2e135911e7dd578873014b72f86ccde8ebe95",
+      "release_sha256": "4392b02cfcf6ef68fcb28df928d2e135911e7dd578873014b72f86ccde8ebe95",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "tests/test_cache_3dino.py",
+      "source_sha256": "d67748fcfa8f8585457f3329d6ef8ee2416e2a40bf6c7b682ab8aeb005495375",
+      "release_sha256": "d67748fcfa8f8585457f3329d6ef8ee2416e2a40bf6c7b682ab8aeb005495375",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "tests/test_frozen_audit_statistics.py",
+      "source_sha256": "d33f6b3b93a91ca7c80fb4b483f4d8735625c5650fa97ae8c3b5098b6628b400",
+      "release_sha256": "d33f6b3b93a91ca7c80fb4b483f4d8735625c5650fa97ae8c3b5098b6628b400",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "tests/test_ispy2_manifest_builder.py",
+      "source_sha256": "8b34ac651ff7915892c98995b6266a9ded5b7dbc3e4e519fc82e91048bd1ad9d",
+      "release_sha256": "ea49714ee63de0450aa6376fec92b36aed2d338ebb35ebc867a87ec07d205892",
+      "modified_for_public_packaging": true
+    },
+    {
+      "path": "tests/test_ispy2_ser_roi_converter.py",
+      "source_sha256": "ce460422f97beaf664be4e80a518f7d69476002073dfd81490d29efd039758ff",
+      "release_sha256": "ce460422f97beaf664be4e80a518f7d69476002073dfd81490d29efd039758ff",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "tests/test_ispy2_ser_roi_spec.py",
+      "source_sha256": "9d23246e66b2bfdbc7e102654980517755279434945e34203a313cbcd156796f",
+      "release_sha256": "9d23246e66b2bfdbc7e102654980517755279434945e34203a313cbcd156796f",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "tests/test_merge_feature_index.py",
+      "source_sha256": "f833d041822792a4ff0dc219892ad794f6f2eb95bdf74f8744c5590eca849f00",
+      "release_sha256": "f833d041822792a4ff0dc219892ad794f6f2eb95bdf74f8744c5590eca849f00",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "tests/test_roi_v4p3p1.py",
+      "source_sha256": "ecedba13b311064f5a3a22f277df6dfeceaef0bb461fcb0de590473c31008a90",
+      "release_sha256": "ecedba13b311064f5a3a22f277df6dfeceaef0bb461fcb0de590473c31008a90",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "tests/test_roi_v4p3p2.py",
+      "source_sha256": "86d374b23c6c1f8eab276e020865b4cedd5e62e854f9cf6c91441f1a33d9474b",
+      "release_sha256": "86d374b23c6c1f8eab276e020865b4cedd5e62e854f9cf6c91441f1a33d9474b",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "tests/test_roi_v4p3p2_factorial_audit.py",
+      "source_sha256": "922912cc6782e85dbd5de1edbbdecc325d17a7f2300846a73ae5b736a1aec4d4",
+      "release_sha256": "922912cc6782e85dbd5de1edbbdecc325d17a7f2300846a73ae5b736a1aec4d4",
+      "modified_for_public_packaging": false
+    },
+    {
+      "path": "tests/test_roi_v4p3p2_matched_prior.py",
+      "source_sha256": "716479a3469041730e9e2cdff627f17c40b76011c8747c4c5c74b7ae90716d32",
+      "release_sha256": "716479a3469041730e9e2cdff627f17c40b76011c8747c4c5c74b7ae90716d32",
+      "modified_for_public_packaging": false
+    }
+  ],
+  "public_packaging_and_documentation": [
+    ".gitignore",
+    "CITATION.cff",
+    "README.md",
+    "docs/code-map.md",
+    "docs/data.md",
+    "docs/release.md",
+    "docs/reproduction.md",
+    "examples/model_smoke.py",
+    "pyproject.toml",
+    "requirements-test.txt"
+  ]
+}

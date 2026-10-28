@@ -1,0 +1,40 @@
+# Local environments and Python build products
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Study inputs and outputs stay local
+/data/
+/governed/
+/private/
+/checkpoints/
+/outputs/
+/results/
+/reports/
+/tmp/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.dcm
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.csv
+*.tsv
+*.jsonl
+*.zip

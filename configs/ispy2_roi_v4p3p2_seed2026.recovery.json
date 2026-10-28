@@ -1,0 +1,8 @@
+{
+  "schema_version": "med-jepa-roi-v4p3p2-recovery-config-v1",
+  "seed": 2026,
+  "final_epoch_count": 18,
+  "background_numerical_noninferiority_margin": 0.000001,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260816
+}

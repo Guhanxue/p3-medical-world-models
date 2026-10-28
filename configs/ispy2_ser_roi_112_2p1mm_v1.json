@@ -1,0 +1,45 @@
+{
+  "schema_version": "med-jepa-ispy2-ser-roi-spec-v1",
+  "roi_id": "ser_roi_112_2p1mm_t0bbox_v1",
+  "modality": "SER",
+  "tensor_shape": [112, 112, 112],
+  "spacing_mm": [2.1, 2.1, 2.1],
+  "orientation": "RAS",
+  "anchor": {
+    "reference_visit": "T0",
+    "roi_source_visits": ["T0"],
+    "mask_included_condition": "raw_value_equals_zero",
+    "center_rule": "t0_inverse_mask_bbox_midpoint_patient_space_v1",
+    "minimum_margin_mm": 20.0,
+    "out_of_bounds_padding": "zero_unitless_ser_after_dicom_rescale_v1"
+  },
+  "longitudinal_registration": {
+    "registration_type": "rigid",
+    "t0_transform": "identity_rigid",
+    "moving_visits": ["T1", "T3"],
+    "deformable_registration": false,
+    "future_mask_role": "coverage_qc_only_never_crop_centering"
+  },
+  "grid_selection_evidence": {
+    "anchor_audit_schema_version": "med-jepa-ispy2-roi-anchor-audit-v2",
+    "patients": 595,
+    "max_t0_inverse_mask_extent_mm": 184.3868,
+    "required_fov_mm_with_20mm_margin": 224.3868,
+    "chosen_fov_mm": 235.2,
+    "rationale": "Preserves 112-cube/7-cube 3DINO contract while retaining all 595 patients with physical-margin headroom."
+  },
+  "canonical_ras_validation": {
+    "status": "ok_anchor_geometry",
+    "patients_with_support_inside_grid": 595,
+    "patients_with_required_20mm_margin": 595,
+    "patients_outside_grid": 0,
+    "patients_below_required_margin": 0,
+    "minimum_observed_edge_margin_mm": 25.4066,
+    "decision": "locked_for_ser_roi_conversion_v1"
+  },
+  "spatial_provenance": {
+    "transform_id": "ispy2_ser_t0_bbox_rigid_112_2p1mm_v1",
+    "registration_type": "rigid",
+    "deformable_registration": false
+  }
+}
